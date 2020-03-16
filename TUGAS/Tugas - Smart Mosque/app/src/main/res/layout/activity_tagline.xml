@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".Tagline">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/btn_title"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:padding="17sp"
+        android:text="~ Tag Line ~"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/btn_form"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center"
+            android:text="Isi Tagline"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="@drawable/btn_show"
+            android:padding="10dp"
+            android:text="Isi Tagline"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/btn_title2"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="~ Edit Data ~"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="@drawable/btn_form2"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:padding="40px"
+                android:hint="Isi Tagline"
+                android:inputType=""
+                android:background="@drawable/btn_edit"
+                android:textColorHint="#9A9A9A"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnSimpan6"
+                android:background="@drawable/btn_save"
+                android:layout_width="400px"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Perbarui" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/back6"
+            android:textColor="#000000"
+            android:background="@drawable/btn_rounds"
+            android:layout_margin="20dp"
+            android:layout_width="500px"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali ke Menu" />
+
+    </LinearLayout>
+
+</LinearLayout>

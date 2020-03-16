@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~ Smart Mosque ~"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Identitas\nMasjid"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Jadwal\nSholat"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Marquee\nMasjid"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Pengumuman\nMasjid"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Slide\nShow"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rounds"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif"
+                android:text="TagLine\nMasjid"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#856620"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="- Swipe Left or Right for Menu -"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

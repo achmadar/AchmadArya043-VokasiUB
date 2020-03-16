@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Utama"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:id="@+id/txtIntentUtama" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/inputText1" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnIntent1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Intent 1" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/BtnIntent2"
+        android:text="Intent 2"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D4174"
+    tools:context=".Add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        android:background="@drawable/container"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/data"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_show"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Nama"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="NIM"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editnim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_show"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:hint="NIM"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_show"
+                    android:padding="5dp"
+                    android:hint="Alamat"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_gravity="center"
+                android:background="@drawable/save"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:text="Tambah" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_gravity="center"
+            android:background="@drawable/login"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:text="Kembali" />
+
+    </LinearLayout>
+
+</LinearLayout>
